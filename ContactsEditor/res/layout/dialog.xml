@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!-- The Title Bar -->
+
+        <TextView
+            android:id="@+id/dialog_titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Select Country Code"
+            android:drawableLeft="@drawable/color" />
+
+    <ListView
+        android:id="@+id/dialog_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_titlebar" >
+    </ListView>
+
+</RelativeLayout>

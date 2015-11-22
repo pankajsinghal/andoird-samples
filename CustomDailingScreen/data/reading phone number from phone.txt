@@ -1,0 +1,3 @@
+android was able to extract own phone numbers from the following sims
+yes - airtel - prepaid - 5yr old sim
+no - airtel - pre/postpaid - 2yrs old
